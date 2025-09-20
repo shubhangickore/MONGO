@@ -16,12 +16,8 @@ app.get("/api",checkToken ,(req,res)=>{
 // app.use((req,res,next)=>{
 //     console.log("Hi, i m 1st middleware");
 //     next();
-// });
+// });   ....
 
-// app.use((req,res,next)=>{
-//     console.log("Hi, i m 2nd middleware");
-//     next();
-// });
 
 app.get("/",(req,res)=>{
     res.send("root page");
