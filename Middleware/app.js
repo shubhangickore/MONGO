@@ -20,7 +20,7 @@ app.get("/api",checkToken ,(req,res)=>{
 
 
 app.get("/",(req,res)=>{
-    res.send("root page");
+    res.send("Main page");
 });
 
 app.get("/random",(req,res)=>{
