@@ -11,7 +11,7 @@ const checkToken = (req,res,next)=>{
 };
 
 app.get("/api",checkToken ,(req,res)=>{
-    res.send("The DATA is here");
+    res.send("The provided  DATA is here");
 });
 // app.use((req,res,next)=>{
 //     console.log("Hi, i m 1st middleware");
